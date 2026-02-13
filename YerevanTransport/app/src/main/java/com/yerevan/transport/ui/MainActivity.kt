@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 fromSearchJob?.cancel()
-                fromSearchJob = kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Main).launch {
+                fromSearchJob = lifecycleScope.launch {
                     kotlinx.coroutines.delay(300)
                     viewModel.searchStops(s?.toString() ?: "")
                 }
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 toSearchJob?.cancel()
-                toSearchJob = kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Main).launch {
+                toSearchJob = lifecycleScope.launch {
                     kotlinx.coroutines.delay(300)
                     viewModel.searchStops(s?.toString() ?: "")
                 }
