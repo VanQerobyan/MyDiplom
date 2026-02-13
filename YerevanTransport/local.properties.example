@@ -1,0 +1,8 @@
+# Copy this file to local.properties and fill in your paths
+# local.properties is git-ignored and should not be committed
+
+# Android SDK path (required for building)
+sdk.dir=/path/to/your/Android/sdk
+
+# Google Maps API key (required for map display)
+MAPS_API_KEY=your_google_maps_api_key_here

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yerevan Transport</string>
+    <string name="search_routes">Search Routes</string>
+    <string name="from_stop">From (starting stop)</string>
+    <string name="to_stop">To (destination stop)</string>
+    <string name="search">Find Route</string>
+    <string name="route_options">Route Options</string>
+</resources>
