@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Yerevan Transport</string>
+    <string name="start_stop">Start stop</string>
+    <string name="end_stop">End stop</string>
+    <string name="find_routes">Find routes</string>
+    <string name="syncing_data">Syncing GIS data…</string>
+    <string name="no_routes_found">No route options found for selected stops.</string>
+</resources>
