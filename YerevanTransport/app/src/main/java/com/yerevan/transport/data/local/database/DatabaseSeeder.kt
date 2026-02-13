@@ -13,11 +13,11 @@ import kotlinx.coroutines.withContext
 
 /**
  * Seeds the database with transport data extracted from Yerevan GIS.
- * Data source: https://gis.yerevan.am/server/rest/services/Hosted/Bus_stops_lots/FeatureServer
+ * Data source: https://gis.yerevan.am/server/rest/services/Hosted/
  *
  * The data was originally fetched from:
  * - Bus stops: Bus_stops_lots/FeatureServer/0/query (384 stops)
- * - Metro stations: Մետρο_κkeydelays/FeatureServer/0/query (10 existing stations)
+ * - Metro stations: Metro_stations/FeatureServer/0/query (10 existing stations)
  *
  * Route data is generated based on geographic analysis of stop positions,
  * creating realistic routes that connect stops along corridors and within communities.

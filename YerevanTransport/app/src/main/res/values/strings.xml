@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Yerevan Transport</string>
-    <string name="app_subtitle">Երևանի Տրանdelaysdelays</string>
+    <string name="app_subtitle">Yerevan Public Transport</string>
 
     <!-- Search -->
     <string name="hint_from">From (start stop)</string>
