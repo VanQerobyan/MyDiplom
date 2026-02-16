@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yerevan Transport</string>
+    <string name="app_subtitle">Yerevan Public Transport</string>
+
+    <!-- Search -->
+    <string name="hint_from">From (start stop)</string>
+    <string name="hint_to">To (destination stop)</string>
+    <string name="btn_search">Find Routes</string>
+    <string name="btn_swap">Swap</string>
+    <string name="btn_clear">Clear</string>
+
+    <!-- Route Results -->
+    <string name="routes_found">%d route(s) found</string>
+    <string name="no_routes">No routes found between these stops</string>
+    <string name="direct_route">Direct</string>
+    <string name="transfer_route">%d transfer(s)</string>
+    <string name="walking">Walk %s</string>
+    <string name="estimated_time">~%s</string>
+    <string name="distance">%s</string>
+    <string name="stops_count">%d stops</string>
+
+    <!-- Map -->
+    <string name="map_title">Map</string>
+    <string name="btn_center_yerevan">Center on Yerevan</string>
+    <string name="btn_show_all_stops">Show All Stops</string>
+
+    <!-- Navigation -->
+    <string name="nav_search">Search</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_routes">Routes</string>
+
+    <!-- Loading -->
+    <string name="loading">Loading...</string>
+    <string name="loading_data">Loading transport data...</string>
+    <string name="calculating">Calculating routes...</string>
+
+    <!-- Transport Types -->
+    <string name="type_bus">Bus</string>
+    <string name="type_metro">Metro</string>
+    <string name="type_trolleybus">Trolleybus</string>
+    <string name="type_minibus">Minibus</string>
+
+    <!-- Stats -->
+    <string name="stats_stops">%d stops</string>
+    <string name="stats_routes">%d routes</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_same_stops">Start and end stops cannot be the same</string>
+</resources>
